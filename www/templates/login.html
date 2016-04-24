@@ -1,0 +1,40 @@
+<ion-view class="background">
+
+  <!--<ion-header-bar align-title="center" class="bar bar-header bar-assertive-900">
+    <span class="title">Login</span>
+  </ion-header-bar>-->
+  <ion-content scroll="true" class="padding">
+    <div class="list ">
+      <img src="../img/login2.png" class="logo">
+      <div class="logoText padding-top">
+        Photo Sharing App
+      </div>
+    </div>
+    <div class="list card padding">
+      <label class="item item-input">
+        <span class="input-label">Email</span>
+        <input type="text" ng-model="user.email">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Password</span>
+        <input type="password" ng-model="user.pwdForLogin">
+      </label>
+
+      <button ng-click="signIn(user)" class="button button-block button-positive ">
+        Sign In
+      </button>
+    </div>
+
+    <div class="list " style="text-align:center">
+      <button ng-click="loginCtrl.modal.show()" class="button button-small icon-left ion-person-add button-positive">
+        Create New Account
+      </button>
+    </div>
+
+    <div class="row">
+      <button class="col button button-small icon ion-social-facebook button-positive" ng-click="loginCtrl.loginWithFacebook()">  facebook</button>
+      <button class="col button button-small icon ion-social-twitter button-assertive">  twitter</button>
+    </div>
+
+  </ion-content>
+</ion-view>

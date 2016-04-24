@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+
+
+.border{
+ border: 2px solid;
+}
+.background{
+
+  background-image: url("../img/background.png");
+
+
+}
+.logo{
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.logo1{
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logoText {
+  text-align: center;
+  font-size: 28px;
+  font-family: fantasy;
+}
+.item-note {
+  font-size: 10px;
+  margin-top: -22px;
+  margin-right: -35px;
+}
+.textCenter {
+  text-align: center;
+}
