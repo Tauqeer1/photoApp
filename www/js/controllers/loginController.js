@@ -7,6 +7,9 @@ angular.module('photoSharingApp')
     var _self = this;
     _self.signInUser = {};
     $ionicModal.fromTemplateUrl('templates/signup.html', {
+
+
+
       _self: $scope
 
     }).then(function (modal) {
