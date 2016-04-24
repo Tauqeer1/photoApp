@@ -36,7 +36,7 @@ angular.module('photoSharingApp')
       }
     });
 
-    auth.$getAuth(function (authData) {
+    auth.$getAuth(function(authData){
       console.log("get auth data ", authData);
     })
 
