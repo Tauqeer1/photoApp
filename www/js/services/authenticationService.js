@@ -4,9 +4,10 @@
 
 
 angular.module('photoSharingApp')
-  .factory('auth', ['$firebaseAuth', function ($firebaseAuth) {
-
+  .factory('auth', ['$firebaseAuth', function () {
     var ref = new Firebase("https://appphotosharing.firebaseio.com");
-    var userRef = ref.child('users');
-    return $firebaseAuth(userRef);
+
+    return {
+      ref : ref
+    }
   }]);

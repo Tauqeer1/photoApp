@@ -6,6 +6,7 @@
     "angularfire": "^1.2.0"
   },
   "dependencies": {
-    "ionic-material": "^0.4.2"
+    "ionic-material": "^0.4.2",
+    "ngCordova": "^0.1.26-alpha"
   }
 }
